@@ -1,0 +1,62 @@
+{
+	"Patient": "ID",
+	"SeriesTime": "TIMESTAMP",
+	"SeriesUID": "DICOMUID",
+	"Lesions": 
+	[
+	{
+		"LesionNumber": 1,
+		"MajorAxisLength": 15.9557,
+		"MinorAxisLength": 13.2864,
+		"Centroid": [93.1672, 76.2392, 13.846]
+	},
+	{
+		"LesionNumber": 2,
+		"MajorAxisLength": 14.5911,
+		"MinorAxisLength": 10.8246,
+		"Centroid": [113.437, 98.7642, 14.372]
+	},
+	{
+		"LesionNumber": 3,
+		"MajorAxisLength": 14.9358,
+		"MinorAxisLength": 7.59259,
+		"Centroid": [56.6263, 87.8812, 14.8073]
+	},
+	{
+		"LesionNumber": 4,
+		"MajorAxisLength": 14.185,
+		"MinorAxisLength": 12.7803,
+		"Centroid": [160.709, 72.1928, 20.6405]
+	},
+	{
+		"LesionNumber": 5,
+		"MajorAxisLength": 25.0483,
+		"MinorAxisLength": 12.1206,
+		"Centroid": [162.024, 40.2398, 25.363]
+	},
+	{
+		"LesionNumber": 6,
+		"MajorAxisLength": 11.6166,
+		"MinorAxisLength": 8.83793,
+		"Centroid": [66.2795, 125.022, 25.5895]
+	},
+	{
+		"LesionNumber": 7,
+		"MajorAxisLength": 14.2359,
+		"MinorAxisLength": 10.3472,
+		"Centroid": [110.333, 132.559, 32.9626]
+	},
+	{
+		"LesionNumber": 8,
+		"MajorAxisLength": 16.5626,
+		"MinorAxisLength": 12.8817,
+		"Centroid": [76.6745, 95.6206, 47.1062]
+	},
+	{
+		"LesionNumber": 9,
+		"MajorAxisLength": 10.7111,
+		"MinorAxisLength": 5.8237,
+		"Centroid": [41.588, 142.525, 65.9801]
+	}
+	]
+}

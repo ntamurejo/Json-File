@@ -1,0 +1,39 @@
+{
+    "lesion1":{
+      "ejemayor": 1 ,
+      "volumen": 100 ,
+      "Elipsoidal/esferico": 2,
+	  "Asimetria": 3,
+	  "Excentricidad": 4,
+	  "Perimetro": 5,
+      "Centroide":{
+        "x": 23,
+        "y": 24,
+        "z": 25}
+        },
+    "lesion2":{
+      "ejemayor":6,
+	  "volumen" : 200,
+      "Elipsoidal/esferico": 7,
+	  "Asimetria": 8,
+	  "Excentricidad": 9,
+	  "Perimetro": 10,
+      "Centroide":{
+        "x": 26,
+        "y": 27,
+        "z": 28}
+        },
+    "lesion3":{
+      "ejemayor": 11,
+	  "volumen" : 300,
+      "Elipsoidal/esferico": 12,
+	  "volumen" : 13,
+	  "Asimetria": 14,
+	  "Excentricidad": 15,
+	  "Perimetro": 16,
+      "Centroide":{
+        "x": 29,
+        "y": 30,
+        "z": 31}
+        }
+}
