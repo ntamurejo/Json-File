@@ -91,6 +91,9 @@
 		void jsonReader::setTotalLesions(int nlesiones) { this->m_TotalLesions = nlesiones; }
 		int jsonReader::getTotalLesions() { return this->m_TotalLesions; }
 
+        void jsonReader::setNumberLesion(int nlesion) { this->m_NumberLesion = nlesion; }
+        int jsonReader::getNumberLesion() { return this->m_NumberLesion; }
+
 		
 		
 		// Void de las funciones para leer
@@ -113,7 +116,7 @@
 		void jsonReader::readDataFromJson(json::JSON file)
 		{
 			int totalLesiones = this->getTotalLesions();
-
+           this->m_CentroideVectorValues.clear();
 			// Bucle para leer el eje mayor
 			for (int i = 0; i < totalLesiones; i++)
 			{
@@ -146,8 +149,7 @@
 				std::cout << "lesion" << i << ", Centroide Vector: " << this->getCentroideVectorValues()[0] << "," 
 																	<< this->getCentroideVectorValues()[1] << "," 
 																	<< this->getCentroideVectorValues()[2] << std::endl;
-				this->m_CentroideVectorValues.clear();
-			}
+           }
 		}
 		// Funcion para rellenar la tabla de qt con los datos extraidos de la funcion
 	}

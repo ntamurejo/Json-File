@@ -55,7 +55,10 @@ namespace jsonFileNamespace
 		void setTotalLesions(int nlesiones);
 		int getTotalLesions();
 
-	
+        void setNumberLesion(int nNumberLesion);
+        int getNumberLesion();
+
+        
 		json::JSON readFileJSONFromPath(std::string path);
 		
 		void readDataFromJson(json::JSON file);
@@ -66,6 +69,7 @@ namespace jsonFileNamespace
 	private:
 
 		int m_TotalLesions;
+        int m_NumberLesion;
 
 		float m_EjeMayorLesionValue;
 		float m_EjeMenorLesionValue;
